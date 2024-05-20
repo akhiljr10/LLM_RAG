@@ -50,6 +50,10 @@ Please note: This is a work in progress and considered experimental. While we ai
    ```bash
    streamlit run app/chatbot.py --server.runOnSave=true
    ```
+   if you experience 403 error then try this,
+   ```bash
+   streamlit run app/chatbot.py --server.runOnSave=true --server.enableXsrfProtection false
+   ```
 
 6. **Upload a PDF File:**
    * Click the "Choose a PDF file to get started" button and select your .pdf document.
